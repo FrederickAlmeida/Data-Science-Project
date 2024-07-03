@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/e62bb58a872149ca98821735da18df0d/artifacts
+end_time: 1720046122520
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: active
+run_id: e62bb58a872149ca98821735da18df0d
+run_name: melodic-penguin-122
+run_uuid: e62bb58a872149ca98821735da18df0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720046119338
+status: 3
+tags: []
+user_id: T-Gamer

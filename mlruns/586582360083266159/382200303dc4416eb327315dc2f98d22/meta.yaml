@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/382200303dc4416eb327315dc2f98d22/artifacts
+end_time: 1720045681265
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: active
+run_id: 382200303dc4416eb327315dc2f98d22
+run_name: capable-goose-325
+run_uuid: 382200303dc4416eb327315dc2f98d22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720045676236
+status: 3
+tags: []
+user_id: T-Gamer

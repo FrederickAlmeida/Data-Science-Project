@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/270e9aa6dda245b4ab5761fbf5a01ef7/artifacts
+end_time: 1720045929526
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: active
+run_id: 270e9aa6dda245b4ab5761fbf5a01ef7
+run_name: orderly-doe-776
+run_uuid: 270e9aa6dda245b4ab5761fbf5a01ef7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720045926186
+status: 3
+tags: []
+user_id: T-Gamer
