@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/586582360083266159/09b7126e817e413a9f86e96cfa5ce59f/artifacts
+deleted_time: 1720146326649
 end_time: 1720046177094
 entry_point_name: ''
 experiment_id: '586582360083266159'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 09b7126e817e413a9f86e96cfa5ce59f
 run_name: nosy-vole-863
 run_uuid: 09b7126e817e413a9f86e96cfa5ce59f

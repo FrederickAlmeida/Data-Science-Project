@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/586582360083266159/270e9aa6dda245b4ab5761fbf5a01ef7/artifacts
+deleted_time: 1720146326651
 end_time: 1720045929526
 entry_point_name: ''
 experiment_id: '586582360083266159'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 270e9aa6dda245b4ab5761fbf5a01ef7
 run_name: orderly-doe-776
 run_uuid: 270e9aa6dda245b4ab5761fbf5a01ef7

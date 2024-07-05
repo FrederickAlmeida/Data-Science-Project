@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/52398f72631840bc92185bc9d802da5d/artifacts
+deleted_time: 1720146326637
+end_time: 1720144315151
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: deleted
+run_id: 52398f72631840bc92185bc9d802da5d
+run_name: abundant-fox-340
+run_uuid: 52398f72631840bc92185bc9d802da5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720144311885
+status: 3
+tags: []
+user_id: T-Gamer

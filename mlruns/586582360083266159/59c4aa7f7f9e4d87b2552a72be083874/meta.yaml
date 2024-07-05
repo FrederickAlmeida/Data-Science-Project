@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/59c4aa7f7f9e4d87b2552a72be083874/artifacts
+deleted_time: 1720146326638
+end_time: 1720144232068
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: deleted
+run_id: 59c4aa7f7f9e4d87b2552a72be083874
+run_name: nosy-perch-547
+run_uuid: 59c4aa7f7f9e4d87b2552a72be083874
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720144231895
+status: 4
+tags: []
+user_id: T-Gamer

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/2918328a691045c39225c2c33a60af65/artifacts
+deleted_time: 1720146326622
+end_time: 1720145444135
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: deleted
+run_id: 2918328a691045c39225c2c33a60af65
+run_name: bittersweet-mule-773
+run_uuid: 2918328a691045c39225c2c33a60af65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720145440572
+status: 3
+tags: []
+user_id: T-Gamer

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/a0956ba8f7594e6eaa5a587b7b437fdb/artifacts
+deleted_time: 1720145435752
+end_time: 1720145242148
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: deleted
+run_id: a0956ba8f7594e6eaa5a587b7b437fdb
+run_name: marvelous-goose-932
+run_uuid: a0956ba8f7594e6eaa5a587b7b437fdb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720145238451
+status: 4
+tags: []
+user_id: T-Gamer

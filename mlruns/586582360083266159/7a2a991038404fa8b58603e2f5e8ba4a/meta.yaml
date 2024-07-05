@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/7a2a991038404fa8b58603e2f5e8ba4a/artifacts
+deleted_time: 1720145435751
+end_time: 1720145259016
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: deleted
+run_id: 7a2a991038404fa8b58603e2f5e8ba4a
+run_name: victorious-mare-16
+run_uuid: 7a2a991038404fa8b58603e2f5e8ba4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720145255431
+status: 3
+tags: []
+user_id: T-Gamer

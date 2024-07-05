@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/6cf17cabdec24be1a2977463c2e7a5a4/artifacts
+deleted_time: 1720146326623
+end_time: 1720144531640
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: deleted
+run_id: 6cf17cabdec24be1a2977463c2e7a5a4
+run_name: teste_knn
+run_uuid: 6cf17cabdec24be1a2977463c2e7a5a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720144528119
+status: 3
+tags: []
+user_id: T-Gamer

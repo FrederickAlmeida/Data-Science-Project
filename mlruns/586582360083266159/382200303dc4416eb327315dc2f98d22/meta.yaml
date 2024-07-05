@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/586582360083266159/382200303dc4416eb327315dc2f98d22/artifacts
+deleted_time: 1720146326654
 end_time: 1720045681265
 entry_point_name: ''
 experiment_id: '586582360083266159'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 382200303dc4416eb327315dc2f98d22
 run_name: capable-goose-325
 run_uuid: 382200303dc4416eb327315dc2f98d22

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/6dd62730039b45fdae32193655d5b14a/artifacts
+deleted_time: 1720145435720
+end_time: 1720145129806
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: deleted
+run_id: 6dd62730039b45fdae32193655d5b14a
+run_name: peaceful-turtle-852
+run_uuid: 6dd62730039b45fdae32193655d5b14a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720145126451
+status: 3
+tags: []
+user_id: T-Gamer

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/b35b4f0dc5184aef9207b0c6bad8f1ef/artifacts
+deleted_time: 1720146326635
+end_time: 1720144457428
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: deleted
+run_id: b35b4f0dc5184aef9207b0c6bad8f1ef
+run_name: nebulous-fish-962
+run_uuid: b35b4f0dc5184aef9207b0c6bad8f1ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720144453839
+status: 3
+tags: []
+user_id: T-Gamer
