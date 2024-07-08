@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1720363464670
+current_stage: None
+description: ''
+last_updated_timestamp: 1720363464670
+name: tracking-quickstart
+run_id: 9737862644984cf3a3e7fc923ae5346f
+run_link: ''
+source: mlflow-artifacts:/586582360083266159/9737862644984cf3a3e7fc923ae5346f/artifacts/Sleep_health
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/586582360083266159/9737862644984cf3a3e7fc923ae5346f/artifacts/Sleep_health
+user_id: null
+version: 13
