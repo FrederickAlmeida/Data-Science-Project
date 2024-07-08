@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/698021876929133353/504d08268944444f800e05d9199c69fe/artifacts
+deleted_time: 1720462636489
+end_time: 1720462628639
+entry_point_name: ''
+experiment_id: '698021876929133353'
+lifecycle_stage: deleted
+run_id: 504d08268944444f800e05d9199c69fe
+run_name: KNN regressor 2
+run_uuid: 504d08268944444f800e05d9199c69fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720462626979
+status: 4
+tags: []
+user_id: federico

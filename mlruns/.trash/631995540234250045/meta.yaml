@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/631995540234250045
+creation_time: 1720461626388
+experiment_id: '631995540234250045'
+last_update_time: 1720462401065
+lifecycle_stage: deleted
+name: 'First Models: DecisionTreeRegressor'
+tags: {}

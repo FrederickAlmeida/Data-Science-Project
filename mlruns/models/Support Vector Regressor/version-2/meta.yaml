@@ -1,0 +1,16 @@
+aliases: []
+creation_timestamp: 1720464447140
+current_stage: None
+description: ''
+last_updated_timestamp: 1720464447140
+name: Support Vector Regressor
+run_id: e96d0a3d4e384be580ca308ae558ef11
+run_link: ''
+source: mlflow-artifacts:/154295806624159116/e96d0a3d4e384be580ca308ae558ef11/artifacts/Support
+  Vector Regressor
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/154295806624159116/e96d0a3d4e384be580ca308ae558ef11/artifacts/Support
+  Vector Regressor
+user_id: null
+version: 2

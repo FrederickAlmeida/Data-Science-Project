@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/631995540234250045/68728db8640b4c8192c055dd6130ed28/artifacts
+deleted_time: 1720461978005
+end_time: 1720461785563
+entry_point_name: ''
+experiment_id: '631995540234250045'
+lifecycle_stage: deleted
+run_id: 68728db8640b4c8192c055dd6130ed28
+run_name: DecisionTreeRegressor 1
+run_uuid: 68728db8640b4c8192c055dd6130ed28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720461783514
+status: 3
+tags: []
+user_id: federico

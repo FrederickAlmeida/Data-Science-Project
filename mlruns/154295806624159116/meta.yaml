@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/154295806624159116
+creation_time: 1720464439144
+experiment_id: '154295806624159116'
+last_update_time: 1720464439144
+lifecycle_stage: active
+name: 'First Models: Support Vector Regressor'

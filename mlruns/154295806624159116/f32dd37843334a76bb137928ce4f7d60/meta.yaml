@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/154295806624159116/f32dd37843334a76bb137928ce4f7d60/artifacts
+end_time: 1720464450310
+entry_point_name: ''
+experiment_id: '154295806624159116'
+lifecycle_stage: active
+run_id: f32dd37843334a76bb137928ce4f7d60
+run_name: Support Vector Regressor 4
+run_uuid: f32dd37843334a76bb137928ce4f7d60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720464448728
+status: 3
+tags: []
+user_id: federico

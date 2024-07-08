@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/633852203665642519
+creation_time: 1720462662246
+experiment_id: '633852203665642519'
+last_update_time: 1720462662246
+lifecycle_stage: active
+name: 'First Models: KNN regressor'

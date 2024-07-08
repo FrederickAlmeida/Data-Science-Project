@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/280092393174223373
+creation_time: 1720462856678
+experiment_id: '280092393174223373'
+last_update_time: 1720462856678
+lifecycle_stage: active
+name: 'First Models: Random Forest Regressor'
