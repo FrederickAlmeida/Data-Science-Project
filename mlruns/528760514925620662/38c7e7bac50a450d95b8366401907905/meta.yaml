@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/528760514925620662/38c7e7bac50a450d95b8366401907905/artifacts
+end_time: 1720466518353
+entry_point_name: ''
+experiment_id: '528760514925620662'
+lifecycle_stage: active
+run_id: 38c7e7bac50a450d95b8366401907905
+run_name: support vector
+run_uuid: 38c7e7bac50a450d95b8366401907905
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720466516801
+status: 3
+tags: []
+user_id: federico
