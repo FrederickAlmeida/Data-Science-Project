@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/586582360083266159/65fd351cef0949f5829e716f606109c2/artifacts
+deleted_time: 1720638177221
+end_time: 1720195262578
+entry_point_name: ''
+experiment_id: '586582360083266159'
+lifecycle_stage: deleted
+run_id: 65fd351cef0949f5829e716f606109c2
+run_name: teste_rfr
+run_uuid: 65fd351cef0949f5829e716f606109c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720195256028
+status: 3
+tags: []
+user_id: codespace
