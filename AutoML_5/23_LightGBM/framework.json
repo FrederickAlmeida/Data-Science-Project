@@ -1,0 +1,341 @@
+{
+    "uid": "0ff00de7-a957-4e9b-a1d2-6717ebf7d735",
+    "name": "23_LightGBM",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "4.4.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "0817da0c-514f-4096-9e8c-3d2ec6a43609",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "objective": "multiclass",
+                "num_leaves": 63,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 20,
+                "metric": "custom",
+                "custom_eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "4.4.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "49260fd4-b532-43ab-8966-2cbdffef5642",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "objective": "multiclass",
+                "num_leaves": 63,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 20,
+                "metric": "custom",
+                "custom_eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "4.4.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "c778dc01-90c3-4d3d-9eab-fb25c8b43c8b",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "objective": "multiclass",
+                "num_leaves": 63,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 20,
+                "metric": "custom",
+                "custom_eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "4.4.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "65e9dd0b-7cc8-423a-8741-620b2de0d5c3",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "objective": "multiclass",
+                "num_leaves": 63,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 20,
+                "metric": "custom",
+                "custom_eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "4.4.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "9f18d848-5348-4b92-bc43-c4e6ab2c8a79",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1237,
+                "objective": "multiclass",
+                "num_leaves": 63,
+                "learning_rate": 0.05,
+                "feature_fraction": 0.9,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 20,
+                "metric": "custom",
+                "custom_eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "onehotencoder__Blood Pressure_118/76": [
+                    "remove_column"
+                ],
+                "onehotencoder__Blood Pressure_135/88": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "X_path": "AutoML_5/X.data",
+            "y_path": "AutoML_5/y.data",
+            "results_path": "AutoML_5"
+        },
+        "learner": {
+            "model_type": "LightGBM",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1237,
+            "objective": "multiclass",
+            "num_leaves": 63,
+            "learning_rate": 0.05,
+            "feature_fraction": 0.9,
+            "bagging_fraction": 1.0,
+            "min_data_in_leaf": 20,
+            "metric": "custom",
+            "custom_eval_metric_name": "accuracy",
+            "num_class": 6,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "23_LightGBM",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "23_LightGBM/learner_fold_0.lightgbm",
+        "23_LightGBM/learner_fold_1.lightgbm",
+        "23_LightGBM/learner_fold_2.lightgbm",
+        "23_LightGBM/learner_fold_3.lightgbm",
+        "23_LightGBM/learner_fold_4.lightgbm"
+    ],
+    "predictions_fname": "23_LightGBM/predictions_out_of_folds.csv",
+    "metric_name": "accuracy",
+    "final_loss": "-0.9795221843003413",
+    "train_time": 4.09085488319397,
+    "is_stacked": false,
+    "joblib_version": "1.4.2"
+}

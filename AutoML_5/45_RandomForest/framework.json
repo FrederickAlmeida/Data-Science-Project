@@ -1,0 +1,326 @@
+{
+    "uid": "0ff809fc-19ff-471d-a5fb-ecaf3836d8ed",
+    "name": "45_RandomForest",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "efb29cef-577c-4f6f-9416-7d4c147f96f1",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "criterion": "gini",
+                "max_features": 0.9,
+                "min_samples_split": 40,
+                "max_depth": 5,
+                "eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "80973873-ad79-4676-8e66-178a537240ea",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "criterion": "gini",
+                "max_features": 0.9,
+                "min_samples_split": 40,
+                "max_depth": 5,
+                "eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "f5d637cf-e410-4335-8a94-c755752d0e28",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "criterion": "gini",
+                "max_features": 0.9,
+                "min_samples_split": 40,
+                "max_depth": 5,
+                "eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "f78b7dc6-a85f-48af-a74f-360717cf358e",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "criterion": "gini",
+                "max_features": 0.9,
+                "min_samples_split": 40,
+                "max_depth": 5,
+                "eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "323beb56-4122-40b4-8bf1-3aeddb5401df",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1241,
+                "criterion": "gini",
+                "max_features": 0.9,
+                "min_samples_split": 40,
+                "max_depth": 5,
+                "eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 100,
+            "train_cant_improve_limit": 1,
+            "min_steps": 1,
+            "max_steps": 50,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "onehotencoder__Blood Pressure_118/76": [
+                    "remove_column"
+                ],
+                "onehotencoder__Blood Pressure_135/88": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "X_path": "AutoML_5/X.data",
+            "y_path": "AutoML_5/y.data",
+            "results_path": "AutoML_5"
+        },
+        "learner": {
+            "model_type": "Random Forest",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1241,
+            "criterion": "gini",
+            "max_features": 0.9,
+            "min_samples_split": 40,
+            "max_depth": 5,
+            "eval_metric_name": "accuracy",
+            "num_class": 6,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "45_RandomForest",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "45_RandomForest/learner_fold_0.random_forest",
+        "45_RandomForest/learner_fold_1.random_forest",
+        "45_RandomForest/learner_fold_2.random_forest",
+        "45_RandomForest/learner_fold_3.random_forest",
+        "45_RandomForest/learner_fold_4.random_forest"
+    ],
+    "predictions_fname": "45_RandomForest/predictions_out_of_folds.csv",
+    "metric_name": "accuracy",
+    "final_loss": "-0.9658703071672355",
+    "train_time": 5.754162788391113,
+    "is_stacked": false,
+    "joblib_version": "1.4.2"
+}

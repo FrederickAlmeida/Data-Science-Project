@@ -1,0 +1,889 @@
+{
+    "uid": "1eb76d9f-d728-4af8-9b7e-7f74f2654fa9",
+    "name": "62_NeuralNetwork_SelectedFeatures",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.4999269433076171,
+                        0.4981703685712691,
+                        0.49851851526214314
+                    ],
+                    "mean": [
+                        0.5085470085470085,
+                        0.45726495726495725,
+                        0.5384615384615384
+                    ],
+                    "var": [
+                        0.24992694864489742,
+                        0.2481737161224341,
+                        0.24852071005917162
+                    ],
+                    "n_samples_seen": 234,
+                    "n_features_in": 3,
+                    "columns": [
+                        "onehotencoder__Gender_Female",
+                        "onehotencoder__BMI Category_Normal",
+                        "onehotencoder__Sleep Disorder_nan"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Gender_Female": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__BMI Category_Normal": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Sleep Disorder_nan": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Salesperson",
+                    "random_feature",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_125/82"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.49954322038299004,
+                        0.49934210497821657,
+                        0.4981703685712691
+                    ],
+                    "mean": [
+                        0.5213675213675214,
+                        0.47435897435897434,
+                        0.5427350427350427
+                    ],
+                    "var": [
+                        0.24954342903060855,
+                        0.24934253780407628,
+                        0.2481737161224341
+                    ],
+                    "n_samples_seen": 234,
+                    "n_features_in": 3,
+                    "columns": [
+                        "onehotencoder__Gender_Female",
+                        "onehotencoder__BMI Category_Normal",
+                        "onehotencoder__Sleep Disorder_nan"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Gender_Female": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__BMI Category_Normal": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Sleep Disorder_nan": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Salesperson",
+                    "random_feature",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_125/82"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.49934210497821657,
+                        0.49851851526214314,
+                        0.49910431865492083
+                    ],
+                    "mean": [
+                        0.5256410256410257,
+                        0.46153846153846156,
+                        0.5299145299145299
+                    ],
+                    "var": [
+                        0.24934253780407628,
+                        0.24852071005917162,
+                        0.24910512089999273
+                    ],
+                    "n_samples_seen": 234,
+                    "n_features_in": 3,
+                    "columns": [
+                        "onehotencoder__Gender_Female",
+                        "onehotencoder__BMI Category_Normal",
+                        "onehotencoder__Sleep Disorder_nan"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Gender_Female": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__BMI Category_Normal": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Sleep Disorder_nan": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Salesperson",
+                    "random_feature",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_125/82"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.49898039998121585,
+                        0.497162614704167,
+                        0.4996331836893434
+                    ],
+                    "mean": [
+                        0.5319148936170213,
+                        0.44680851063829785,
+                        0.5191489361702127
+                    ],
+                    "var": [
+                        0.24898143956541413,
+                        0.247170665459484,
+                        0.24963331824354915
+                    ],
+                    "n_samples_seen": 235,
+                    "n_features_in": 3,
+                    "columns": [
+                        "onehotencoder__Gender_Female",
+                        "onehotencoder__BMI Category_Normal",
+                        "onehotencoder__Sleep Disorder_nan"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Gender_Female": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__BMI Category_Normal": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Sleep Disorder_nan": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Salesperson",
+                    "random_feature",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_125/82"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.4999592559225368,
+                        0.4986899996074368,
+                        0.4975994887908419
+                    ],
+                    "mean": [
+                        0.5063829787234042,
+                        0.46382978723404256,
+                        0.548936170212766
+                    ],
+                    "var": [
+                        0.24995925758261664,
+                        0.24869171570846532,
+                        0.24760525124490723
+                    ],
+                    "n_samples_seen": 235,
+                    "n_features_in": 3,
+                    "columns": [
+                        "onehotencoder__Gender_Female",
+                        "onehotencoder__BMI Category_Normal",
+                        "onehotencoder__Sleep Disorder_nan"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Gender_Female": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__BMI Category_Normal": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Sleep Disorder_nan": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Salesperson",
+                    "random_feature",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_125/82"
+                ]
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "27d7ea3a-3605-4288-8f1c-9d8a99c8c812",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "9025a9fd-9af9-45c5-a62c-4017dfb2a034",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "78928bda-b21d-45bf-a78b-9f4a725d5ddc",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "ad992948-378b-4e86-8892-500a104d1d95",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "bbc288a2-86d3-4c3d-8c43-f83862227792",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1240,
+                "dense_1_size": 64,
+                "dense_2_size": 4,
+                "learning_rate": 0.01,
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "onehotencoder__Gender_Female": [
+                    "scale_normal"
+                ],
+                "onehotencoder__BMI Category_Normal": [
+                    "scale_normal"
+                ],
+                "onehotencoder__Blood Pressure_118/76": [
+                    "remove_column"
+                ],
+                "onehotencoder__Blood Pressure_135/88": [
+                    "remove_column"
+                ],
+                "onehotencoder__Sleep Disorder_nan": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "random_feature",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ]
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "X_path": "AutoML_5/X.data",
+            "y_path": "AutoML_5/y.data",
+            "results_path": "AutoML_5"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1240,
+            "dense_1_size": 64,
+            "dense_2_size": 4,
+            "learning_rate": 0.01,
+            "num_class": 6,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "62_NeuralNetwork_SelectedFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_features_selection",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "62_NeuralNetwork_SelectedFeatures/learner_fold_0.neural_network",
+        "62_NeuralNetwork_SelectedFeatures/learner_fold_1.neural_network",
+        "62_NeuralNetwork_SelectedFeatures/learner_fold_2.neural_network",
+        "62_NeuralNetwork_SelectedFeatures/learner_fold_3.neural_network",
+        "62_NeuralNetwork_SelectedFeatures/learner_fold_4.neural_network"
+    ],
+    "predictions_fname": "62_NeuralNetwork_SelectedFeatures/predictions_out_of_folds.csv",
+    "metric_name": "accuracy",
+    "final_loss": "-0.9180887372013652",
+    "train_time": 7.110384941101074,
+    "is_stacked": false,
+    "joblib_version": "1.4.2"
+}

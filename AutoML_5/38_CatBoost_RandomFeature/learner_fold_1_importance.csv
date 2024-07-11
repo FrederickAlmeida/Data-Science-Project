@@ -1,0 +1,51 @@
+feature,mean_importance
+random_feature,-0.001083951461769783
+onehotencoder__Blood Pressure_119/77,0.0
+onehotencoder__Blood Pressure_121/79,0.0
+onehotencoder__Blood Pressure_125/80,0.0
+onehotencoder__Blood Pressure_125/82,0.0
+onehotencoder__Blood Pressure_126/83,0.0
+onehotencoder__Blood Pressure_128/84,0.0
+onehotencoder__Blood Pressure_128/85,0.0
+onehotencoder__Blood Pressure_118/75,0.0
+onehotencoder__Blood Pressure_129/84,0.0
+onehotencoder__Blood Pressure_131/86,0.0
+onehotencoder__Blood Pressure_132/87,0.0
+onehotencoder__Blood Pressure_135/90,0.0
+onehotencoder__Blood Pressure_139/91,0.0
+onehotencoder__Blood Pressure_140/90,0.0
+onehotencoder__Blood Pressure_140/95,0.0
+onehotencoder__Blood Pressure_142/92,0.0
+onehotencoder__Blood Pressure_130/86,0.0
+onehotencoder__Blood Pressure_117/76,0.0
+onehotencoder__Blood Pressure_122/80,0.0
+onehotencoder__Blood Pressure_115/75,0.0
+onehotencoder__Occupation_Engineer,0.0
+onehotencoder__Blood Pressure_115/78,0.0
+onehotencoder__Occupation_Sales Representative,0.0
+onehotencoder__Occupation_Salesperson,0.0
+onehotencoder__Occupation_Scientist,0.0
+onehotencoder__Occupation_Software Engineer,0.0
+onehotencoder__Occupation_Manager,0.0
+onehotencoder__BMI Category_Normal Weight,0.0
+onehotencoder__BMI Category_Obese,0.0
+onehotencoder__Occupation_Teacher,0.0
+onehotencoder__Occupation_Accountant,0.0009575398176900451
+onehotencoder__Gender_Male,0.002915991193502987
+onehotencoder__Blood Pressure_120/80,0.004391556788257733
+onehotencoder__Occupation_Lawyer,0.007905488382596592
+onehotencoder__Blood Pressure_130/85,0.00881005331601028
+onehotencoder__Occupation_Nurse,0.010607185422641496
+onehotencoder__Gender_Female,0.020572499013084156
+onehotencoder__Sleep Disorder_Sleep Apnea,0.025072059052721096
+onehotencoder__Sleep Disorder_nan,0.03467806017458579
+onehotencoder__BMI Category_Overweight,0.0409818000798319
+onehotencoder__Occupation_Doctor,0.056607744137841906
+onehotencoder__BMI Category_Normal,0.05979210200435372
+onehotencoder__Sleep Disorder_Insomnia,0.073326526317529
+remainder__Physical Norm,0.12025444920579602
+remainder__Age Norm,0.15940340411474035
+remainder__Steps Norm,0.1805610900893841
+remainder__Heart Norm,0.1818323529354237
+remainder__Stress Norm,0.43480470080379446
+remainder__Sleep Norm,0.4544478095821495

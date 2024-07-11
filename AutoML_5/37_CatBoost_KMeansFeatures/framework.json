@@ -1,0 +1,721 @@
+{
+    "uid": "437bb4a1-b9cf-4c02-b9b1-714f901b59b2",
+    "name": "37_CatBoost_KMeansFeatures",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Dist_Cluster_16",
+                    "Dist_Cluster_17",
+                    "Cluster"
+                ],
+                "result_file": "37_CatBoost_KMeansFeatures/kmeans_fold_0.joblib",
+                "input_columns": [
+                    "onehotencoder__Gender_Female",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__Occupation_Doctor",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__Occupation_Salesperson",
+                    "onehotencoder__Occupation_Scientist",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__BMI Category_Normal",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__BMI Category_Overweight",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_120/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_125/82",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_130/85",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Sleep Disorder_Insomnia",
+                    "onehotencoder__Sleep Disorder_Sleep Apnea",
+                    "onehotencoder__Sleep Disorder_nan",
+                    "remainder__Age Norm",
+                    "remainder__Sleep Norm",
+                    "remainder__Physical Norm",
+                    "remainder__Stress Norm",
+                    "remainder__Heart Norm",
+                    "remainder__Steps Norm"
+                ]
+            },
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_5"
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Dist_Cluster_16",
+                    "Dist_Cluster_17",
+                    "Cluster"
+                ],
+                "result_file": "37_CatBoost_KMeansFeatures/kmeans_fold_1.joblib",
+                "input_columns": [
+                    "onehotencoder__Gender_Female",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__Occupation_Doctor",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__Occupation_Salesperson",
+                    "onehotencoder__Occupation_Scientist",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__BMI Category_Normal",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__BMI Category_Overweight",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_120/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_125/82",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_130/85",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Sleep Disorder_Insomnia",
+                    "onehotencoder__Sleep Disorder_Sleep Apnea",
+                    "onehotencoder__Sleep Disorder_nan",
+                    "remainder__Age Norm",
+                    "remainder__Sleep Norm",
+                    "remainder__Physical Norm",
+                    "remainder__Stress Norm",
+                    "remainder__Heart Norm",
+                    "remainder__Steps Norm"
+                ]
+            },
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_5"
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Dist_Cluster_16",
+                    "Dist_Cluster_17",
+                    "Cluster"
+                ],
+                "result_file": "37_CatBoost_KMeansFeatures/kmeans_fold_2.joblib",
+                "input_columns": [
+                    "onehotencoder__Gender_Female",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__Occupation_Doctor",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__Occupation_Salesperson",
+                    "onehotencoder__Occupation_Scientist",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__BMI Category_Normal",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__BMI Category_Overweight",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_120/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_125/82",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_130/85",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Sleep Disorder_Insomnia",
+                    "onehotencoder__Sleep Disorder_Sleep Apnea",
+                    "onehotencoder__Sleep Disorder_nan",
+                    "remainder__Age Norm",
+                    "remainder__Sleep Norm",
+                    "remainder__Physical Norm",
+                    "remainder__Stress Norm",
+                    "remainder__Heart Norm",
+                    "remainder__Steps Norm"
+                ]
+            },
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_5"
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Dist_Cluster_16",
+                    "Dist_Cluster_17",
+                    "Cluster"
+                ],
+                "result_file": "37_CatBoost_KMeansFeatures/kmeans_fold_3.joblib",
+                "input_columns": [
+                    "onehotencoder__Gender_Female",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__Occupation_Doctor",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__Occupation_Salesperson",
+                    "onehotencoder__Occupation_Scientist",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__BMI Category_Normal",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__BMI Category_Overweight",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_120/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_125/82",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_130/85",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Sleep Disorder_Insomnia",
+                    "onehotencoder__Sleep Disorder_Sleep Apnea",
+                    "onehotencoder__Sleep Disorder_nan",
+                    "remainder__Age Norm",
+                    "remainder__Sleep Norm",
+                    "remainder__Physical Norm",
+                    "remainder__Stress Norm",
+                    "remainder__Heart Norm",
+                    "remainder__Steps Norm"
+                ]
+            },
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_5"
+                }
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Dist_Cluster_9",
+                    "Dist_Cluster_10",
+                    "Dist_Cluster_11",
+                    "Dist_Cluster_12",
+                    "Dist_Cluster_13",
+                    "Dist_Cluster_14",
+                    "Dist_Cluster_15",
+                    "Dist_Cluster_16",
+                    "Dist_Cluster_17",
+                    "Cluster"
+                ],
+                "result_file": "37_CatBoost_KMeansFeatures/kmeans_fold_4.joblib",
+                "input_columns": [
+                    "onehotencoder__Gender_Female",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__Occupation_Doctor",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__Occupation_Salesperson",
+                    "onehotencoder__Occupation_Scientist",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__BMI Category_Normal",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__BMI Category_Overweight",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_120/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_125/82",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_130/85",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Sleep Disorder_Insomnia",
+                    "onehotencoder__Sleep Disorder_Sleep Apnea",
+                    "onehotencoder__Sleep Disorder_nan",
+                    "remainder__Age Norm",
+                    "remainder__Sleep Norm",
+                    "remainder__Physical Norm",
+                    "remainder__Stress Norm",
+                    "remainder__Heart Norm",
+                    "remainder__Steps Norm"
+                ]
+            },
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_5"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.5",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "4e10c745-de15-44e2-9b10-b1836e04a839",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 1.0,
+                "loss_function": "MultiClass",
+                "eval_metric": "Accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 21
+        },
+        {
+            "library_version": "1.2.5",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "4b501cb3-9879-42ed-9ed7-a8ca0419a2ca",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 1.0,
+                "loss_function": "MultiClass",
+                "eval_metric": "Accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 21
+        },
+        {
+            "library_version": "1.2.5",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "8cab04f4-99a1-468e-8753-b29e32e385d6",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 1.0,
+                "loss_function": "MultiClass",
+                "eval_metric": "Accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 41
+        },
+        {
+            "library_version": "1.2.5",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "cf9a9bb3-8c2f-4651-b973-b1bd2af04c43",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 1.0,
+                "loss_function": "MultiClass",
+                "eval_metric": "Accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 10
+        },
+        {
+            "library_version": "1.2.5",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "0cd643c9-0a56-4fcf-872d-38d9a4942ac0",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1242,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 1.0,
+                "loss_function": "MultiClass",
+                "eval_metric": "Accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 18
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "onehotencoder__Blood Pressure_118/76": [
+                    "remove_column"
+                ],
+                "onehotencoder__Blood Pressure_135/88": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification",
+            "kmeans_features": {
+                "results_path": "AutoML_5"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "X_path": "AutoML_5/X.data",
+            "y_path": "AutoML_5/y.data",
+            "results_path": "AutoML_5"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1242,
+            "learning_rate": 0.2,
+            "depth": 4,
+            "rsm": 1.0,
+            "loss_function": "MultiClass",
+            "eval_metric": "Accuracy",
+            "num_class": 6,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "37_CatBoost_KMeansFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_kmeans_features",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "37_CatBoost_KMeansFeatures/learner_fold_0.catboost",
+        "37_CatBoost_KMeansFeatures/learner_fold_1.catboost",
+        "37_CatBoost_KMeansFeatures/learner_fold_2.catboost",
+        "37_CatBoost_KMeansFeatures/learner_fold_3.catboost",
+        "37_CatBoost_KMeansFeatures/learner_fold_4.catboost"
+    ],
+    "predictions_fname": "37_CatBoost_KMeansFeatures/predictions_out_of_folds.csv",
+    "metric_name": "accuracy",
+    "final_loss": "-0.9726962457337884",
+    "train_time": 6.600730895996094,
+    "is_stacked": false,
+    "joblib_version": "1.4.2"
+}

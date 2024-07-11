@@ -1,0 +1,50 @@
+feature,mean_importance
+onehotencoder__Occupation_Scientist,-0.0001755591953251312
+onehotencoder__Blood Pressure_125/80,0.0
+onehotencoder__Blood Pressure_126/83,0.0
+onehotencoder__Blood Pressure_117/76,0.0
+onehotencoder__Blood Pressure_128/84,0.0
+onehotencoder__Blood Pressure_128/85,0.0
+onehotencoder__Blood Pressure_131/86,0.0
+onehotencoder__Blood Pressure_139/91,0.0
+onehotencoder__Blood Pressure_140/90,0.0
+onehotencoder__Blood Pressure_140/95,0.0
+onehotencoder__Blood Pressure_121/79,0.0
+onehotencoder__Occupation_Software Engineer,0.0
+onehotencoder__Occupation_Salesperson,0.0
+onehotencoder__Occupation_Sales Representative,0.0
+onehotencoder__Occupation_Nurse,0.0
+onehotencoder__Occupation_Manager,0.0
+onehotencoder__Occupation_Lawyer,0.0
+onehotencoder__Occupation_Engineer,0.0
+onehotencoder__Sleep Disorder_Sleep Apnea,0.0
+onehotencoder__Sleep Disorder_nan,0.0
+onehotencoder__Gender_Male,0.0
+onehotencoder__Blood Pressure_119/77,0.0
+onehotencoder__Blood Pressure_125/82,0.0
+onehotencoder__Gender_Female,5.551115123125783e-18
+onehotencoder__Blood Pressure_142/92,5.551115123125783e-18
+onehotencoder__Blood Pressure_122/80,5.551115123125783e-18
+onehotencoder__Blood Pressure_115/78,5.551115123125783e-18
+onehotencoder__Blood Pressure_118/75,1.1102230246251566e-17
+onehotencoder__Blood Pressure_132/87,0.00017634026834205673
+onehotencoder__BMI Category_Obese,0.00021264684496015706
+onehotencoder__Blood Pressure_135/90,0.0004578144223496672
+onehotencoder__Blood Pressure_129/84,0.0006029579474294666
+onehotencoder__Sleep Disorder_Insomnia,0.0011636974941311717
+onehotencoder__Blood Pressure_130/86,0.002010461247977979
+onehotencoder__Blood Pressure_115/75,0.002101385281102519
+onehotencoder__Blood Pressure_120/80,0.0026534417975968673
+onehotencoder__Occupation_Teacher,0.002787943774358553
+onehotencoder__BMI Category_Normal Weight,0.0028405021050835312
+onehotencoder__Blood Pressure_130/85,0.0037161946933374213
+onehotencoder__Occupation_Accountant,0.0065152899063380286
+onehotencoder__BMI Category_Overweight,0.007868597418344997
+onehotencoder__BMI Category_Normal,0.011490732767974566
+remainder__Physical Norm,0.01949455063765952
+remainder__Age Norm,0.040883128031915225
+remainder__Heart Norm,0.08066689383134248
+remainder__Steps Norm,0.14792889509812007
+onehotencoder__Occupation_Doctor,0.15448014795174686
+remainder__Stress Norm,0.42678809159206954
+remainder__Sleep Norm,0.9553623800937192

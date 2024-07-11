@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/528760514925620662/f08d91fec85b4ae4a9bfc3a66f6ea5b1/artifacts
+deleted_time: 1720724073630
 end_time: 1720663414991
 entry_point_name: ''
 experiment_id: '528760514925620662'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f08d91fec85b4ae4a9bfc3a66f6ea5b1
 run_name: decistion tree
 run_uuid: f08d91fec85b4ae4a9bfc3a66f6ea5b1

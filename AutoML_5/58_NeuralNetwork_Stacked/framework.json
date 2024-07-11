@@ -1,0 +1,499 @@
+{
+    "uid": "3f97f0e8-97e5-4113-a849-8b4a1a1924b4",
+    "name": "58_NeuralNetwork_Stacked",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.4999269433076171,
+                        0.4981703685712691,
+                        0.49851851526214314
+                    ],
+                    "mean": [
+                        0.5085470085470085,
+                        0.45726495726495725,
+                        0.5384615384615384
+                    ],
+                    "var": [
+                        0.24992694864489742,
+                        0.2481737161224341,
+                        0.24852071005917162
+                    ],
+                    "n_samples_seen": 234,
+                    "n_features_in": 3,
+                    "columns": [
+                        "onehotencoder__Gender_Female",
+                        "onehotencoder__BMI Category_Normal",
+                        "onehotencoder__Sleep Disorder_nan"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Gender_Female": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__BMI Category_Normal": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Sleep Disorder_nan": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.49954322038299004,
+                        0.49934210497821657,
+                        0.4981703685712691
+                    ],
+                    "mean": [
+                        0.5213675213675214,
+                        0.47435897435897434,
+                        0.5427350427350427
+                    ],
+                    "var": [
+                        0.24954342903060855,
+                        0.24934253780407628,
+                        0.2481737161224341
+                    ],
+                    "n_samples_seen": 234,
+                    "n_features_in": 3,
+                    "columns": [
+                        "onehotencoder__Gender_Female",
+                        "onehotencoder__BMI Category_Normal",
+                        "onehotencoder__Sleep Disorder_nan"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Gender_Female": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__BMI Category_Normal": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Sleep Disorder_nan": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.49934210497821657,
+                        0.49851851526214314,
+                        0.49910431865492083
+                    ],
+                    "mean": [
+                        0.5256410256410257,
+                        0.46153846153846156,
+                        0.5299145299145299
+                    ],
+                    "var": [
+                        0.24934253780407628,
+                        0.24852071005917162,
+                        0.24910512089999273
+                    ],
+                    "n_samples_seen": 234,
+                    "n_features_in": 3,
+                    "columns": [
+                        "onehotencoder__Gender_Female",
+                        "onehotencoder__BMI Category_Normal",
+                        "onehotencoder__Sleep Disorder_nan"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Gender_Female": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__BMI Category_Normal": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Sleep Disorder_nan": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.49898039998121585,
+                        0.497162614704167,
+                        0.4996331836893434
+                    ],
+                    "mean": [
+                        0.5319148936170213,
+                        0.44680851063829785,
+                        0.5191489361702127
+                    ],
+                    "var": [
+                        0.24898143956541413,
+                        0.247170665459484,
+                        0.24963331824354915
+                    ],
+                    "n_samples_seen": 235,
+                    "n_features_in": 3,
+                    "columns": [
+                        "onehotencoder__Gender_Female",
+                        "onehotencoder__BMI Category_Normal",
+                        "onehotencoder__Sleep Disorder_nan"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Gender_Female": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__BMI Category_Normal": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Sleep Disorder_nan": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        0.4999592559225368,
+                        0.4986899996074368,
+                        0.4975994887908419
+                    ],
+                    "mean": [
+                        0.5063829787234042,
+                        0.46382978723404256,
+                        0.548936170212766
+                    ],
+                    "var": [
+                        0.24995925758261664,
+                        0.24869171570846532,
+                        0.24760525124490723
+                    ],
+                    "n_samples_seen": 235,
+                    "n_features_in": 3,
+                    "columns": [
+                        "onehotencoder__Gender_Female",
+                        "onehotencoder__BMI Category_Normal",
+                        "onehotencoder__Sleep Disorder_nan"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Gender_Female": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__BMI Category_Normal": [
+                        "scale_normal"
+                    ],
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Sleep Disorder_nan": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "4e23fc1a-933e-4e8f-9e3b-6aede42600d0",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "4985fdb8-9123-4bbe-bf79-ea7d11d10df8",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "e80dd9a6-6735-46c1-bcb4-5f4caf660559",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "c05febd2-8571-4508-8083-8c753b48c4c8",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "89f1aea2-cef9-4093-89d4-2f9dc9c32da8",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "onehotencoder__Gender_Female": [
+                    "scale_normal"
+                ],
+                "onehotencoder__BMI Category_Normal": [
+                    "scale_normal"
+                ],
+                "onehotencoder__Blood Pressure_118/76": [
+                    "remove_column"
+                ],
+                "onehotencoder__Blood Pressure_135/88": [
+                    "remove_column"
+                ],
+                "onehotencoder__Sleep Disorder_nan": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "X_path": "AutoML_5/X_stacked.data",
+            "y_path": "AutoML_5/y.data",
+            "results_path": "AutoML_5"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1236,
+            "dense_1_size": 64,
+            "dense_2_size": 16,
+            "learning_rate": 0.01,
+            "num_class": 6,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "58_NeuralNetwork_Stacked",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_stacked",
+        "max_time_for_learner": 72.0,
+        "is_stacked": true
+    },
+    "saved": [
+        "58_NeuralNetwork_Stacked/learner_fold_0.neural_network",
+        "58_NeuralNetwork_Stacked/learner_fold_1.neural_network",
+        "58_NeuralNetwork_Stacked/learner_fold_2.neural_network",
+        "58_NeuralNetwork_Stacked/learner_fold_3.neural_network",
+        "58_NeuralNetwork_Stacked/learner_fold_4.neural_network"
+    ],
+    "predictions_fname": "58_NeuralNetwork_Stacked/predictions_out_of_folds.csv",
+    "metric_name": "accuracy",
+    "final_loss": "-0.962457337883959",
+    "train_time": 14.898646831512451,
+    "is_stacked": true,
+    "joblib_version": "1.4.2"
+}

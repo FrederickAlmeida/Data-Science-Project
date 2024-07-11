@@ -1,0 +1,50 @@
+feature,mean_importance
+onehotencoder__Gender_Female,-0.019057645430869408
+onehotencoder__Gender_Male,-0.013211766402485382
+onehotencoder__Occupation_Scientist,-0.006290410263717777
+onehotencoder__Blood Pressure_128/85,-0.0033739399865513275
+onehotencoder__BMI Category_Overweight,-0.002434889334582796
+onehotencoder__Blood Pressure_142/92,0.0
+onehotencoder__Blood Pressure_131/86,0.0
+onehotencoder__Blood Pressure_128/84,0.0
+onehotencoder__Blood Pressure_126/83,0.0
+onehotencoder__Blood Pressure_125/82,0.0
+onehotencoder__Blood Pressure_121/79,0.0
+onehotencoder__Blood Pressure_117/76,0.0
+onehotencoder__Blood Pressure_115/78,0.0
+onehotencoder__Blood Pressure_122/80,0.0
+onehotencoder__Occupation_Software Engineer,0.0
+onehotencoder__Occupation_Manager,0.0
+onehotencoder__Blood Pressure_140/90,7.761459979746532e-05
+onehotencoder__Blood Pressure_118/75,0.00012482231975459722
+onehotencoder__Blood Pressure_139/91,0.0005565238688660324
+onehotencoder__Blood Pressure_140/95,0.0006519562445259031
+onehotencoder__BMI Category_Obese,0.0013219070257860788
+onehotencoder__Blood Pressure_130/86,0.0016429263540814532
+onehotencoder__Occupation_Lawyer,0.0030168119793237804
+onehotencoder__Blood Pressure_125/80,0.003313426012452947
+onehotencoder__Occupation_Teacher,0.0036553864866318286
+onehotencoder__Blood Pressure_132/87,0.003962069662775852
+onehotencoder__Blood Pressure_119/77,0.004207777366112142
+onehotencoder__Occupation_Nurse,0.005579685157394748
+onehotencoder__Blood Pressure_115/75,0.005607920632359986
+onehotencoder__Occupation_Accountant,0.005998309429898546
+onehotencoder__Blood Pressure_135/90,0.006494063922633736
+onehotencoder__Occupation_Engineer,0.0068280553404591994
+onehotencoder__BMI Category_Normal,0.007302492419846096
+onehotencoder__Occupation_Sales Representative,0.007763084107614221
+onehotencoder__Sleep Disorder_Insomnia,0.00805908079835393
+onehotencoder__Blood Pressure_129/84,0.014644327022101722
+onehotencoder__BMI Category_Normal Weight,0.015610331171044517
+onehotencoder__Blood Pressure_130/85,0.020107267612653752
+onehotencoder__Sleep Disorder_Sleep Apnea,0.02047176972426632
+onehotencoder__Occupation_Salesperson,0.02194393636105252
+remainder__Physical Norm,0.027813683297841323
+onehotencoder__Sleep Disorder_nan,0.03521550585819291
+onehotencoder__Blood Pressure_120/80,0.06738538177518971
+remainder__Steps Norm,0.06966101567287444
+remainder__Age Norm,0.09115075274105142
+onehotencoder__Occupation_Doctor,0.1359670374451008
+remainder__Heart Norm,0.15758886936015676
+remainder__Stress Norm,0.2355576958972155
+remainder__Sleep Norm,0.39745569930918573

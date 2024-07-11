@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "remainder__Sleep Norm",
+            "feature2": "onehotencoder__Blood Pressure_125/82",
+            "operation": "sum",
+            "score": 0.6136995862
+        },
+        {
+            "feature1": "onehotencoder__Blood Pressure_117/76",
+            "feature2": "remainder__Sleep Norm",
+            "operation": "diff",
+            "score": 0.6636655273
+        },
+        {
+            "feature1": "remainder__Sleep Norm",
+            "feature2": "remainder__Stress Norm",
+            "operation": "diff",
+            "score": 0.7150927988
+        },
+        {
+            "feature1": "remainder__Sleep Norm",
+            "feature2": "onehotencoder__Blood Pressure_117/76",
+            "operation": "sum",
+            "score": 0.8676175694
+        },
+        {
+            "feature1": "remainder__Stress Norm",
+            "feature2": "remainder__Sleep Norm",
+            "operation": "multiply",
+            "score": 0.9318706665
+        },
+        {
+            "feature1": "remainder__Sleep Norm",
+            "feature2": "onehotencoder__Occupation_Lawyer",
+            "operation": "sum",
+            "score": 0.9554530758
+        },
+        {
+            "feature1": "onehotencoder__Occupation_Accountant",
+            "feature2": "remainder__Sleep Norm",
+            "operation": "diff",
+            "score": 1.0133926138
+        },
+        {
+            "feature1": "remainder__Sleep Norm",
+            "feature2": "onehotencoder__Blood Pressure_130/85",
+            "operation": "sum",
+            "score": 1.0394921874
+        },
+        {
+            "feature1": "remainder__Physical Norm",
+            "feature2": "remainder__Stress Norm",
+            "operation": "diff",
+            "score": 1.0488365137
+        },
+        {
+            "feature1": "remainder__Physical Norm",
+            "feature2": "onehotencoder__BMI Category_Normal",
+            "operation": "ratio",
+            "score": 1.0976473594
+        }
+    ],
+    "new_columns": [
+        "remainder__Sleep Norm_sum_onehotencoder__Blood Pressure_125/82",
+        "onehotencoder__Blood Pressure_117/76_diff_remainder__Sleep Norm",
+        "remainder__Sleep Norm_diff_remainder__Stress Norm",
+        "remainder__Sleep Norm_sum_onehotencoder__Blood Pressure_117/76",
+        "remainder__Stress Norm_multiply_remainder__Sleep Norm",
+        "remainder__Sleep Norm_sum_onehotencoder__Occupation_Lawyer",
+        "onehotencoder__Occupation_Accountant_diff_remainder__Sleep Norm",
+        "remainder__Sleep Norm_sum_onehotencoder__Blood Pressure_130/85",
+        "remainder__Physical Norm_diff_remainder__Stress Norm",
+        "remainder__Physical Norm_ratio_onehotencoder__BMI Category_Normal"
+    ],
+    "ml_task": "multiclass_classification"
+}

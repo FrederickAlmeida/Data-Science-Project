@@ -1,0 +1,717 @@
+{
+    "uid": "de6a553d-28d6-4f84-b714-8cb6ecf7687d",
+    "name": "78_RandomForest_SelectedFeatures",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Salesperson",
+                    "random_feature",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_125/82"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Salesperson",
+                    "random_feature",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_125/82"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Salesperson",
+                    "random_feature",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_125/82"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Salesperson",
+                    "random_feature",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_125/82"
+                ]
+            }
+        },
+        {
+            "remove_columns": [
+                "onehotencoder__Blood Pressure_118/76",
+                "onehotencoder__Blood Pressure_135/88"
+            ],
+            "categorical_y": {
+                "4.0": 0,
+                "5.0": 1,
+                "6.0": 2,
+                "7.0": 3,
+                "8.0": 4,
+                "9.0": 5
+            },
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ],
+            "params": {
+                "columns_preprocessing": {
+                    "onehotencoder__Blood Pressure_118/76": [
+                        "remove_column"
+                    ],
+                    "onehotencoder__Blood Pressure_135/88": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "multiclass_classification",
+                "drop_features": [
+                    "onehotencoder__Occupation_Teacher",
+                    "onehotencoder__Occupation_Nurse",
+                    "onehotencoder__Gender_Male",
+                    "onehotencoder__Occupation_Lawyer",
+                    "onehotencoder__Occupation_Salesperson",
+                    "random_feature",
+                    "onehotencoder__Blood Pressure_129/84",
+                    "onehotencoder__Blood Pressure_115/75",
+                    "onehotencoder__Occupation_Sales Representative",
+                    "onehotencoder__BMI Category_Normal Weight",
+                    "onehotencoder__Occupation_Accountant",
+                    "onehotencoder__BMI Category_Obese",
+                    "onehotencoder__Blood Pressure_132/87",
+                    "onehotencoder__Blood Pressure_122/80",
+                    "onehotencoder__Blood Pressure_131/86",
+                    "onehotencoder__Blood Pressure_126/83",
+                    "onehotencoder__Blood Pressure_125/80",
+                    "onehotencoder__Blood Pressure_121/79",
+                    "onehotencoder__Blood Pressure_130/86",
+                    "onehotencoder__Blood Pressure_119/77",
+                    "onehotencoder__Blood Pressure_118/75",
+                    "onehotencoder__Blood Pressure_117/76",
+                    "onehotencoder__Blood Pressure_115/78",
+                    "onehotencoder__Blood Pressure_128/84",
+                    "onehotencoder__Blood Pressure_142/92",
+                    "onehotencoder__Blood Pressure_128/85",
+                    "onehotencoder__Blood Pressure_135/90",
+                    "onehotencoder__Occupation_Software Engineer",
+                    "onehotencoder__Blood Pressure_139/91",
+                    "onehotencoder__Blood Pressure_140/90",
+                    "onehotencoder__Occupation_Manager",
+                    "onehotencoder__Occupation_Engineer",
+                    "onehotencoder__Blood Pressure_140/95",
+                    "onehotencoder__Blood Pressure_125/82"
+                ]
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "ca5461fe-177d-4704-9c2a-b9ae741538d2",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "criterion": "gini",
+                "max_features": 0.6,
+                "min_samples_split": 30,
+                "max_depth": 7,
+                "eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "10f7b0b8-cb43-4d2a-81e0-ecf1123a1ff6",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "criterion": "gini",
+                "max_features": 0.6,
+                "min_samples_split": 30,
+                "max_depth": 7,
+                "eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "3f3ad0ad-9ee3-4645-bcac-fc26a5ce12ce",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "criterion": "gini",
+                "max_features": 0.6,
+                "min_samples_split": 30,
+                "max_depth": 7,
+                "eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "1f527eb2-50e5-4f73-b085-ed0520729060",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "criterion": "gini",
+                "max_features": 0.6,
+                "min_samples_split": 30,
+                "max_depth": 7,
+                "eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.4.2",
+            "algorithm_name": "Random Forest",
+            "algorithm_short_name": "Random Forest",
+            "uid": "8f012c0b-4db0-4889-86fa-967ab577eba5",
+            "params": {
+                "model_type": "Random Forest",
+                "ml_task": "multiclass_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "criterion": "gini",
+                "max_features": 0.6,
+                "min_samples_split": 30,
+                "max_depth": 7,
+                "eval_metric_name": "accuracy",
+                "num_class": 6,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "trees_in_step": 100,
+            "train_cant_improve_limit": 1,
+            "min_steps": 1,
+            "max_steps": 50,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "onehotencoder__Blood Pressure_118/76": [
+                    "remove_column"
+                ],
+                "onehotencoder__Blood Pressure_135/88": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification",
+            "drop_features": [
+                "onehotencoder__Occupation_Teacher",
+                "onehotencoder__Occupation_Nurse",
+                "onehotencoder__Gender_Male",
+                "onehotencoder__Occupation_Lawyer",
+                "onehotencoder__Occupation_Salesperson",
+                "random_feature",
+                "onehotencoder__Blood Pressure_129/84",
+                "onehotencoder__Blood Pressure_115/75",
+                "onehotencoder__Occupation_Sales Representative",
+                "onehotencoder__BMI Category_Normal Weight",
+                "onehotencoder__Occupation_Accountant",
+                "onehotencoder__BMI Category_Obese",
+                "onehotencoder__Blood Pressure_132/87",
+                "onehotencoder__Blood Pressure_122/80",
+                "onehotencoder__Blood Pressure_131/86",
+                "onehotencoder__Blood Pressure_126/83",
+                "onehotencoder__Blood Pressure_125/80",
+                "onehotencoder__Blood Pressure_121/79",
+                "onehotencoder__Blood Pressure_130/86",
+                "onehotencoder__Blood Pressure_119/77",
+                "onehotencoder__Blood Pressure_118/75",
+                "onehotencoder__Blood Pressure_117/76",
+                "onehotencoder__Blood Pressure_115/78",
+                "onehotencoder__Blood Pressure_128/84",
+                "onehotencoder__Blood Pressure_142/92",
+                "onehotencoder__Blood Pressure_128/85",
+                "onehotencoder__Blood Pressure_135/90",
+                "onehotencoder__Occupation_Software Engineer",
+                "onehotencoder__Blood Pressure_139/91",
+                "onehotencoder__Blood Pressure_140/90",
+                "onehotencoder__Occupation_Manager",
+                "onehotencoder__Occupation_Engineer",
+                "onehotencoder__Blood Pressure_140/95",
+                "onehotencoder__Blood Pressure_125/82"
+            ]
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "X_path": "AutoML_5/X.data",
+            "y_path": "AutoML_5/y.data",
+            "results_path": "AutoML_5"
+        },
+        "learner": {
+            "model_type": "Random Forest",
+            "ml_task": "multiclass_classification",
+            "n_jobs": -1,
+            "seed": 1236,
+            "criterion": "gini",
+            "max_features": 0.6,
+            "min_samples_split": 30,
+            "max_depth": 7,
+            "eval_metric_name": "accuracy",
+            "num_class": 6,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "multiclass_classification",
+        "explain_level": 0,
+        "name": "78_RandomForest_SelectedFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_features_selection",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "78_RandomForest_SelectedFeatures/learner_fold_0.random_forest",
+        "78_RandomForest_SelectedFeatures/learner_fold_1.random_forest",
+        "78_RandomForest_SelectedFeatures/learner_fold_2.random_forest",
+        "78_RandomForest_SelectedFeatures/learner_fold_3.random_forest",
+        "78_RandomForest_SelectedFeatures/learner_fold_4.random_forest"
+    ],
+    "predictions_fname": "78_RandomForest_SelectedFeatures/predictions_out_of_folds.csv",
+    "metric_name": "accuracy",
+    "final_loss": "-0.9658703071672355",
+    "train_time": 6.887033939361572,
+    "is_stacked": false,
+    "joblib_version": "1.4.2"
+}

@@ -1,0 +1,67 @@
+# Summary of 58_NeuralNetwork_Stacked
+
+[<< Go back](../README.md)
+
+
+## Neural Network
+- **n_jobs**: -1
+- **dense_1_size**: 64
+- **dense_2_size**: 16
+- **learning_rate**: 0.01
+- **num_class**: 6
+- **explain_level**: 0
+
+## Validation
+ - **validation_type**: kfold
+ - **k_folds**: 5
+
+## Optimized metric
+accuracy
+
+## Training time
+
+14.9 seconds
+
+### Metric details
+|           |       4.0 |       5.0 |       6.0 |       7.0 |       8.0 |       9.0 |   accuracy |   macro avg |   weighted avg |   logloss |
+|:----------|----------:|----------:|----------:|----------:|----------:|----------:|-----------:|------------:|---------------:|----------:|
+| precision |  0.952381 |  1        |  0.942857 |  0.964912 |  1        |  0.923077 |   0.962457 |    0.963871 |       0.96406  |  0.218096 |
+| recall    |  1        |  0.7      |  0.970588 |  0.964912 |  0.9875   |  1        |   0.962457 |    0.937167 |       0.962457 |  0.218096 |
+| f1-score  |  0.97561  |  0.823529 |  0.956522 |  0.964912 |  0.993711 |  0.96     |   0.962457 |    0.945714 |       0.961103 |  0.218096 |
+| support   | 20        | 20        | 68        | 57        | 80        | 48        |   0.962457 |  293        |     293        |  0.218096 |
+
+
+## Confusion matrix
+|                |   Predicted as 4.0 |   Predicted as 5.0 |   Predicted as 6.0 |   Predicted as 7.0 |   Predicted as 8.0 |   Predicted as 9.0 |
+|:---------------|-------------------:|-------------------:|-------------------:|-------------------:|-------------------:|-------------------:|
+| Labeled as 4.0 |                 20 |                  0 |                  0 |                  0 |                  0 |                  0 |
+| Labeled as 5.0 |                  0 |                 14 |                  2 |                  0 |                  0 |                  4 |
+| Labeled as 6.0 |                  1 |                  0 |                 66 |                  1 |                  0 |                  0 |
+| Labeled as 7.0 |                  0 |                  0 |                  2 |                 55 |                  0 |                  0 |
+| Labeled as 8.0 |                  0 |                  0 |                  0 |                  1 |                 79 |                  0 |
+| Labeled as 9.0 |                  0 |                  0 |                  0 |                  0 |                  0 |                 48 |
+
+## Learning curves
+![Learning curves](learning_curves.png)
+## Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+
+## Normalized Confusion Matrix
+
+![Normalized Confusion Matrix](confusion_matrix_normalized.png)
+
+
+## ROC Curve
+
+![ROC Curve](roc_curve.png)
+
+
+## Precision Recall Curve
+
+![Precision Recall Curve](precision_recall_curve.png)
+
+
+
+[<< Go back](../README.md)

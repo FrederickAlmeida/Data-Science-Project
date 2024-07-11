@@ -1,0 +1,51 @@
+feature,mean_importance
+onehotencoder__Blood Pressure_122/80,0.0
+onehotencoder__Blood Pressure_128/85,0.0
+onehotencoder__Blood Pressure_128/84,0.0
+onehotencoder__Blood Pressure_126/83,0.0
+onehotencoder__Blood Pressure_125/82,0.0
+onehotencoder__Blood Pressure_125/80,0.0
+onehotencoder__Blood Pressure_132/87,0.0
+onehotencoder__Blood Pressure_121/79,0.0
+onehotencoder__Blood Pressure_135/90,0.0
+onehotencoder__Blood Pressure_119/77,0.0
+onehotencoder__Blood Pressure_118/75,0.0
+onehotencoder__Blood Pressure_117/76,0.0
+onehotencoder__Blood Pressure_115/78,0.0
+onehotencoder__Blood Pressure_115/75,0.0
+onehotencoder__Blood Pressure_131/86,0.0
+onehotencoder__Blood Pressure_139/91,0.0
+onehotencoder__BMI Category_Normal Weight,0.0
+onehotencoder__Gender_Male,0.0
+onehotencoder__Occupation_Accountant,0.0
+onehotencoder__Blood Pressure_142/92,0.0
+onehotencoder__Occupation_Engineer,0.0
+onehotencoder__Occupation_Lawyer,0.0
+onehotencoder__BMI Category_Obese,0.0
+onehotencoder__Occupation_Manager,0.0
+onehotencoder__Occupation_Sales Representative,0.0
+onehotencoder__Blood Pressure_140/95,0.0
+onehotencoder__Blood Pressure_140/90,0.0
+onehotencoder__Occupation_Software Engineer,0.0
+onehotencoder__Occupation_Teacher,0.0
+onehotencoder__BMI Category_Normal,0.0
+onehotencoder__Occupation_Nurse,0.0
+onehotencoder__Blood Pressure_130/86,0.0
+onehotencoder__Blood Pressure_129/84,0.00286191361838537
+random_feature,0.003790516828412094
+onehotencoder__Occupation_Scientist,0.007115735466477013
+onehotencoder__Blood Pressure_120/80,0.007347744230968201
+onehotencoder__Occupation_Salesperson,0.010307241237635845
+onehotencoder__Sleep Disorder_Sleep Apnea,0.014817916617130167
+onehotencoder__BMI Category_Overweight,0.027038394754497097
+onehotencoder__Gender_Female,0.027246026307934913
+onehotencoder__Blood Pressure_130/85,0.028461059895908282
+onehotencoder__Sleep Disorder_nan,0.045512415660063234
+onehotencoder__Sleep Disorder_Insomnia,0.06344001176409705
+onehotencoder__Occupation_Doctor,0.09300419058149859
+remainder__Steps Norm,0.11584348658044415
+remainder__Age Norm,0.12360973931963401
+remainder__Physical Norm,0.13317471551513993
+remainder__Heart Norm,0.14505669882580136
+remainder__Stress Norm,0.3718035129085782
+remainder__Sleep Norm,0.41264735128056323

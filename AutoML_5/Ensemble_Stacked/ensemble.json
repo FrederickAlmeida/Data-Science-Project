@@ -1,0 +1,20 @@
+{
+    "name": "Ensemble_Stacked",
+    "ml_task": "multiclass_classification",
+    "optimize_metric": "accuracy",
+    "selected_models": [
+        {
+            "model": "75_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "92_Xgboost_Stacked",
+            "repeat": 1.0
+        }
+    ],
+    "predictions_fname": "Ensemble_Stacked/predictions_ensemble.csv",
+    "metric_name": "accuracy",
+    "final_loss": -0.9965870307167235,
+    "train_time": 14.033502101898193,
+    "is_stacked": true
+}

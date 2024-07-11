@@ -1,0 +1,10 @@
+if (remainder__Sleep Norm <= 1.028) and (remainder__Stress Norm <= 0.628) and (remainder__Steps Norm > -0.443) then class: 8.0 (proba: 82.61%) | based on 69 samples
+
+if (remainder__Sleep Norm <= 1.028) and (remainder__Stress Norm > 0.628) and (remainder__Heart Norm <= 1.532) then class: 6.0 (proba: 81.67%) | based on 60 samples
+
+if (remainder__Sleep Norm > 1.028) then class: 9.0 (proba: 100.0%) | based on 36 samples
+
+if (remainder__Sleep Norm <= 1.028) and (remainder__Stress Norm <= 0.628) and (remainder__Steps Norm <= -0.443) then class: 7.0 (proba: 86.21%) | based on 29 samples
+
+if (remainder__Sleep Norm <= 1.028) and (remainder__Stress Norm > 0.628) and (remainder__Heart Norm > 1.532) then class: 4.0 (proba: 60.0%) | based on 25 samples
+

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/528760514925620662/d580c8c1a6044059afdf6e67698eb0cf/artifacts
+deleted_time: 1720724073642
 end_time: 1720663545990
 entry_point_name: ''
 experiment_id: '528760514925620662'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d580c8c1a6044059afdf6e67698eb0cf
 run_name: KNN regressor 4
 run_uuid: d580c8c1a6044059afdf6e67698eb0cf
