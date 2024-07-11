@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/698021876929133353/bb3f9d7e04c6443f946c43b08998deb6/artifacts
+end_time: 1720663394581
+entry_point_name: ''
+experiment_id: '698021876929133353'
+lifecycle_stage: active
+run_id: bb3f9d7e04c6443f946c43b08998deb6
+run_name: DecisionTreeRegressor 3
+run_uuid: bb3f9d7e04c6443f946c43b08998deb6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720663392842
+status: 3
+tags: []
+user_id: codespace

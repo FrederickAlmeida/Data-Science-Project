@@ -1,0 +1,16 @@
+aliases: []
+creation_timestamp: 1720664761176
+current_stage: None
+description: ''
+last_updated_timestamp: 1720664761176
+name: Tuned KNN regressor
+run_id: 79a5c7299b5c43d4b42a592d21816363
+run_link: ''
+source: mlflow-artifacts:/626832822362215694/79a5c7299b5c43d4b42a592d21816363/artifacts/Tuned
+  KNN regressor
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/626832822362215694/79a5c7299b5c43d4b42a592d21816363/artifacts/Tuned
+  KNN regressor
+user_id: null
+version: 12

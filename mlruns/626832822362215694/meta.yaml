@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/626832822362215694
+creation_time: 1720663831577
+experiment_id: '626832822362215694'
+last_update_time: 1720663831577
+lifecycle_stage: active
+name: Tuned KNN regressor

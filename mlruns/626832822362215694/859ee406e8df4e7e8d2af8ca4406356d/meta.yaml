@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/626832822362215694/859ee406e8df4e7e8d2af8ca4406356d/artifacts
+deleted_time: 1720665333814
+end_time: 1720665151917
+entry_point_name: ''
+experiment_id: '626832822362215694'
+lifecycle_stage: deleted
+run_id: 859ee406e8df4e7e8d2af8ca4406356d
+run_name: Tuned KNN regressor 4
+run_uuid: 859ee406e8df4e7e8d2af8ca4406356d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720665150217
+status: 3
+tags: []
+user_id: codespace

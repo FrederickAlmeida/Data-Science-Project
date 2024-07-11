@@ -1,0 +1,16 @@
+aliases: []
+creation_timestamp: 1720663420353
+current_stage: None
+description: ''
+last_updated_timestamp: 1720663420353
+name: support vector
+run_id: 8aebf1d85969462d967035a28172dc68
+run_link: ''
+source: mlflow-artifacts:/528760514925620662/8aebf1d85969462d967035a28172dc68/artifacts/support
+  vector
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/528760514925620662/8aebf1d85969462d967035a28172dc68/artifacts/support
+  vector
+user_id: null
+version: 3
