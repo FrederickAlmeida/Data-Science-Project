@@ -1,0 +1,16 @@
+aliases: []
+creation_timestamp: 1720667246237
+current_stage: None
+description: ''
+last_updated_timestamp: 1720667246237
+name: Tuned KNN regressor - Fix Overfit
+run_id: 6c2e5c492f524e5b984e56859fbc57a0
+run_link: ''
+source: mlflow-artifacts:/626832822362215694/6c2e5c492f524e5b984e56859fbc57a0/artifacts/Tuned
+  KNN regressor - Fix Overfit
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/626832822362215694/6c2e5c492f524e5b984e56859fbc57a0/artifacts/Tuned
+  KNN regressor - Fix Overfit
+user_id: null
+version: 9

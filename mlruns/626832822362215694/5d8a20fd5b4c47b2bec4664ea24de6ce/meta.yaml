@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/626832822362215694/5d8a20fd5b4c47b2bec4664ea24de6ce/artifacts
+end_time: 1720667242581
+entry_point_name: ''
+experiment_id: '626832822362215694'
+lifecycle_stage: active
+run_id: 5d8a20fd5b4c47b2bec4664ea24de6ce
+run_name: Tuned KNN regressor - Fix Overfit 2
+run_uuid: 5d8a20fd5b4c47b2bec4664ea24de6ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720667240887
+status: 3
+tags: []
+user_id: codespace
