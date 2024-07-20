@@ -1,1 +1,2 @@
+- primeira entrega: https://youtu.be/RYw9bCXL2wQ
 - link para o vídeo sobre o projeto 2: https://youtu.be/W4aS3-V9fGc
